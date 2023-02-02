@@ -1,0 +1,18 @@
+img, p, ul, h1, h2 {
+    width: 300px;
+}
+
+h1 {
+    color: darkgreen;
+    background-color: whitesmoke;
+}
+
+p, li {
+    color: darkslategrey;
+    background-color: azure;
+}
+
+a {
+    color: lightskyblue;
+    background-color: white;
+}
