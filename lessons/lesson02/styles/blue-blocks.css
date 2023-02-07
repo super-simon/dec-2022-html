@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 1024px;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  background-color: #2269bb;
+  height: 24%;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  height: 24%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.middle-block {
+  width: 32%;
+  background-color: #16457a;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  height: 49%;
+  background-color: #2269bb;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
