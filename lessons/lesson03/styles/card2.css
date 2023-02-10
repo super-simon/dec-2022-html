@@ -1,0 +1,83 @@
+:root {
+  --header-height: 100px;
+  --bottom-height: 170px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.bg1 {
+  background-color: #ced8e1;
+}
+
+.bg2 {
+  background-color: #102b3e;
+}
+
+.bg3 {
+  background-color: #6964e2;
+}
+
+.container {
+  width: 1024px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: var(--header-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-box {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+}
+.input {
+  color: #ced8e1;
+  font-size: x-large;
+  border-radius: 10px;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  font-size: xx-large;
+  color: #6964e2;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+
+.content {
+  height: calc(100vh - var(--header-height) - var(--bottom-height));
+}
+
+.bottom {
+  height: var(--bottom-height);
+  position: relative;
+}
+
+.bottom-flex {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+  top: calc(0px - (var(--bottom-height) / 2));
+}
+
+.bottom-box {
+  height: var(--bottom-height);
+  width: var(--bottom-height);
+  border-radius: 10px;
+}
